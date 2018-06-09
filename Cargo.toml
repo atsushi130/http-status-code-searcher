@@ -1,6 +1,10 @@
 [package]
-name = "http-status-code-sercher"
-version = "0.1.0"
-authors = ["atsushi130 <atsushi_main@outlook.jp>"]
+name        = "http_status_code_sercher"
+version     = "0.1.0"
+authors     = ["atsushi130 <atsushi_main@outlook.jp>"]
+description = "http_status_code_searcher"
+repository  = "https://github.com/atsushi130/http-status-code-searcher"
+keywords    = ["http", "status", "code", "status code", "search", "searcher"]
 
 [dependencies]
+rustc-serialize = "0.3"

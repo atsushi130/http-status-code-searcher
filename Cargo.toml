@@ -1,5 +1,5 @@
 [package]
-name        = "http_status_code_sercher"
+name        = "http_status_code_searcher"
 version     = "0.1.0"
 authors     = ["atsushi130 <atsushi_main@outlook.jp>"]
 license     = "MIT/Apache-2.0"

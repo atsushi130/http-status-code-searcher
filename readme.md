@@ -19,4 +19,4 @@
 ```
 
 ## License
-tabelog-searcher is available under the MIT and Apache 2.0 license. See the [LICENSE file](https://github.com/atsushi130/http-status-code-searcher/blob/master/license-mit).
+http_status_code_searcher is available under the MIT and Apache 2.0 license. See the [LICENSE file](https://github.com/atsushi130/http-status-code-searcher/blob/master/license-mit).

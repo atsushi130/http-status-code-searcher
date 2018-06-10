@@ -4,6 +4,7 @@
 
 <p align="center">
     <a href=".license-mit"><img src="https://img.shields.io/badge/dual%20license-MIT%20/%20Apache%202.0-blue.svg"></a> 
+    <a href="https://crates.io/crates/http_status_code_searcher"><img src="https://img.shields.io/crates/v/http_status_code_searcher.svg"></a> 
 </p>
 
 ## Installation via Cargo

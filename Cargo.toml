@@ -6,7 +6,7 @@ license     = "MIT/Apache-2.0"
 description = "searchable http status code from command line arguments."
 readme      = "readme.md"
 repository  = "https://github.com/atsushi130/http-status-code-searcher"
-keywords    = ["http", "status", "code", "status code", "search", "searcher"]
+keywords    = ["http", "status", "code", "search", "searcher"]
 
 [dependencies]
 rustc-serialize = "0.3"

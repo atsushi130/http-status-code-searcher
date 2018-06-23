@@ -16,7 +16,9 @@ impl HttpStatusCodeRepository {
 
     pub fn find_all(&self) -> Vec<HttpStatusCode> {
 
-        let mut file = File::open("http_status_code.json").unwrap();
+        let dir = env!("CARGO_MANIFEST_DIR");
+        let path = format!("{}/http_status_code.json", dir);
+        let mut file = File::open(path).unwrap();
         let mut data = String::new();
         file.read_to_string(&mut data).unwrap();
 

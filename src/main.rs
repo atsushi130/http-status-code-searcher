@@ -21,11 +21,18 @@ fn main() {
         return;
     }
 
-    let http_status_code = &args[1];
+    let input = &args[1];
 
-    let maybe_http_status_code = HttpStatusCodeSearcher.search_by(&http_status_code);
-    maybe_http_status_code.iter().for_each(|http_status_code| {
-        println!("{} {}", http_status_code.code, http_status_code.title);
-        println!("{}", http_status_code.detail);
-    });
+    if input == "list" {
+        let code_list = HttpStatusCodeSearcher.find_all_code();
+        code_list.into_iter().for_each(|http_status_code| {
+            println!("{}", http_status_code);
+        });
+    } else {
+        let maybe_http_status_code = HttpStatusCodeSearcher.search_by(&input);
+        maybe_http_status_code.iter().for_each(|http_status_code| {
+            println!("{} {}", http_status_code.code, http_status_code.title);
+            println!("{}", http_status_code.detail);
+        });
+    }
 }

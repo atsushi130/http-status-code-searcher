@@ -18,4 +18,11 @@ impl HttpStatusCodeSearcher {
                 http_status_code.code == code.to_string()
             })
     }
+
+    pub fn find_all_code(&self) -> Vec<String> {
+        HttpStatusCodeRepository.find_all()
+            .into_iter()
+            .map(|http_status_code| http_status_code.code)
+            .collect()
+    }
 }

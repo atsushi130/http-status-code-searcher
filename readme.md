@@ -7,7 +7,14 @@
     <a href="https://crates.io/crates/http_status_code_searcher"><img src="https://img.shields.io/crates/v/http_status_code_searcher.svg"></a> 
 </p>
 
-## Installation via Cargo
+## Installation 
+
+### Via Homebrew
+```
+❯ brew install http_status_code_searcher
+```
+
+### Via Cargo
 ```
 ❯ cargo install http_status_code_searcher
 ```
